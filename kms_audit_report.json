@@ -1,0 +1,16 @@
+{
+    "AuditTimestamp": "2026-05-26T09:00:00Z",
+    "TotalCustomerKeysAudited": 1,
+    "NonCompliantKeys": [
+        {
+            "KeyArn": "arn:aws:kms:us-east-1:123456789012:key/v4-prod-financial-vault-key",
+            "KeySpec": "SYMMETRIC_DEFAULT",
+            "DaysSinceCreation": 210,
+            "RotationEnabled": false,
+            "ComplianceViolations": [
+                "AUTOMATIC_ROTATION_DISABLED"
+            ],
+            "Status": "REMEDIATION_REQUIRED"
+        }
+    ]
+}
